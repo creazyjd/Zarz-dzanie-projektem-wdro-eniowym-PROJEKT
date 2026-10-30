@@ -1,9 +1,9 @@
 ---
-name: "[BUG]"
+name: "Zgłoszenie błędu"
 about: Zgłoś błąd
-title: "[BUG]"
+title: "[BUG] krótki opis do uzupełnienia"
 labels: bug
-assignees: Arcyskapiec, creazyjd, Darkwolf14, noivry
+assignees: Arcyskapiec, creazyjd, Darkwolf14, noivry, Flagrastama 
 type: Bug
 
 ---
