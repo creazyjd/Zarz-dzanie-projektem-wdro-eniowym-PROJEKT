@@ -1,9 +1,9 @@
 ---
-name: "[FEATURE]"
+name: "Nowa funkcjonalność"
 about: Zaproponuj funkcjonalność
-title: "[FEATURE]"
+title: "[FEATURE] krótki opis"
 labels: enhancement
-assignees: Arcyskapiec, creazyjd, Darkwolf14, noivry
+assignees: Arcyskapiec, creazyjd, Darkwolf14, noivry, Flagrastama 
 type: Feature
 
 ---
@@ -16,6 +16,11 @@ Jaki problem ta funkcjonalność rozwiązuje
 
 **Proponowane zachowanie**
 Opisz, jak powinna działać nowa funkcjonalność
+
+## Priorytet
+- [ ] Niski
+- [ ] Średni
+- [ ] Wysoki
 
 **Dodatkowe informacje**
 Podaj jakiekolwiek dodatkowe informacje tutaj
