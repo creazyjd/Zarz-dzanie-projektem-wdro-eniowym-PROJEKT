@@ -13,4 +13,4 @@ Nie musisz mieć żadnego specjalnego oprogramowania - wystarczy przeglądarka.
 - Alicja K. - 
 - Oleksandr V. - Backend, Node JS, database SQLite
 - Adam Sz. - Super typek generelnie
-- 
+- Krzysztof W. - Frontend aka to co user bedzie widzieć
