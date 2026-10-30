@@ -11,6 +11,6 @@ Nie musisz mieć żadnego specjalnego oprogramowania - wystarczy przeglądarka.
 ## Skład zespołu (DO UZUPEŁNIENIA)
 - Julia D. - kierownik zespołu
 - Alicja K. - 
-- Oleksandr V. - 
+- Oleksandr V. - Backend, Node JS, database SQLite
 - Adam Sz. -
 - 
