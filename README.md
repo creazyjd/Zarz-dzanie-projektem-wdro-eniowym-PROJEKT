@@ -12,5 +12,5 @@ Nie musisz mieć żadnego specjalnego oprogramowania - wystarczy przeglądarka.
 - Julia D. - kierownik zespołu
 - Alicja K. - 
 - Oleksandr V. - Backend, Node JS, database SQLite
-- Adam Sz. -
+- Adam Sz. - Super typek generelnie
 - 
