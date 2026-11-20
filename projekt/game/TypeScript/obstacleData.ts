@@ -3,11 +3,12 @@ import { Player } from "./player.js";
 export class ObstacleData{
     // WSZYSTKIE RODZAJE PRZESZKÓD
     public static obstacle_types: ObstacleData[] = [
-        new ObstacleData("obs1", "low", 1, 0.2, true, "death"),
-        new ObstacleData("obs2", "low", 1, 0.2, true, "death"),
-        new ObstacleData("obs3", "low", 1, 0.2, true, "death"),
-        new ObstacleData("obs4", "low", 1, 0.2, true, "death"),
-        new ObstacleData("obs5", "low", 1, 0.2, true, "death")
+        new ObstacleData("backpack", "low", 1, 0.2, true, "slow"),
+        new ObstacleData("infokiosk", "full", 1, 0.2, true, "death"),
+        new ObstacleData("crowd", "full", 1, 0.2, true, "death"),
+        new ObstacleData("lamp", "high", 1, 0.2, true, "slow"),
+        new ObstacleData("puddle", "low", 1, 0.2, true, "slow"),
+        new ObstacleData("screen", "low", 1, 0.2, true, "death")
     ];
 
     private level: string; // gdzie postać oberwie efektem przeszkody. low - można nad tym przeskoczyć, high - można się pod tym prześlizgnąć, full - nie ma bata
@@ -30,6 +31,10 @@ export class ObstacleData{
 
     public static findByName(name: string): ObstacleData{
         return ObstacleData.obstacle_types.find((obstacle_type) => (obstacle_type.name === name)) as ObstacleData
+    }
+
+    public getName(): string{
+        return this.name
     }
 
     public getLength(): number{

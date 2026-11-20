@@ -16,7 +16,7 @@ export class Obstacle{
         this.line = line
         this.obstacle_data = obstacle_type
         this.html_handler = new htmlElementHandler("obstacle")
-        this.html_handler.setImage("obstacles/tmp_obstacle.png")
+        this.html_handler.setImage("obstacles/" + this.obstacle_data.getName() + ".png")
     }
 
     private async process(): Promise<void>{
